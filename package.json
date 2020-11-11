@@ -1,0 +1,36 @@
+{
+  "name": "firebase-uptime-bot",
+  "version": "1.0.0",
+  "description": "To monitor uptime and ping addresses a Discord bot built using firebase and javascript",
+  "main": "server.js",
+  "dependencies": {
+    "discord.js": "^12.4.0",
+    "chalk": "^4.0.0",
+    "moment": "^2.26.0",
+    "dotenv-config": "^0.1.1",
+    "@firebase/app": "^0.6.13",
+    "firebase-admin": "^9.3.0",
+    "node-fetch": "^2.6.1",
+    "is-url": "^1.2.4",
+    "firebase": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Furtsy/firebase-uptime-bot.git"
+  },
+  "keywords": [
+    "firebase",
+    "discord-uptime",
+    "uptime-bot"
+  ],
+  "author": "Furtsy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Furtsy/firebase-uptime-bot/issues"
+  },
+  "homepage": "https://github.com/Furtsy/firebase-uptime-bot"
+}
