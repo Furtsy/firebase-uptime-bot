@@ -4,10 +4,6 @@ require('dotenv/config');
 const firebase = require('firebase/app');
 const FieldValue = require('firebase-admin').firestore.FieldValue;
 const admin = require('firebase-admin');
-const service = require('./service.json'); //firebase service json
-    admin.initializeApp({
-        credential: admin.credential.cert(service)
-      });
 exports.run = function(client, message, args) {
 let data = admin.firestore();
   var link = args[1]
