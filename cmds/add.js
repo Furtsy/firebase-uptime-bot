@@ -8,7 +8,7 @@ exports.run = function(client, message, args) {
 let data = admin.firestore();
   var link = args[1]
   let url = urls(link) ? link : `https://${link}`;
-if(!urls(link)) return message.reply('please enter link')
+if(!urls(url)) return message.reply('please enter link')
         const embed = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setTitle('Successfully saved to the cloud')
