@@ -7,7 +7,6 @@ const admin = require('firebase-admin');
 exports.run = function(client, message, args) {
 let data = admin.firestore();
   var link = args[1]
-  let url = urls(link) ? link : `https://${link}`;
 if(!urls(url)) return message.reply('please enter link')
         const embed = new Discord.MessageEmbed()
         .setColor('RANDOM')
